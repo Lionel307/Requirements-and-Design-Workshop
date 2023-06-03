@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <h1>Invoice Rendering API</h1>
+            <p> By DONUT</p>
+            <p>This is a quick and simple guide on how to use this API on Postman. More detail can be found on SwaggerHub Documentation.</p>
+        </head>
+        <br>
+        <body>
+            <h2>All Routes Except auth/register, auth/login and healthcheck:</h2>
+            <ul>
+                <li> Users will need to send the request with an authorization header with the key “x-api-key” and its value set to their personal API key.</li>
+            </ul>
+            <br>
+
+            <h2>render/html:</h2>
+            <ul>
+                <li> Users will send the POST request with body containing form-data which will have the key “xml_file” and its value set to their input XML file. </li>
+                <li> Users can view the response headers to retrieve the render_id of the rendered invoice.</li>
+                <li> RETURNS: html file</li>
+            </ul>
+            <br>
+
+            <h2>render/delete:</h2>
+            <ul>
+                <li> Users will send the DELETE request with params containing the key “render_id” with the value of their render_id.</li>
+                <li> RETURNS: {}</li>
+            </ul>
+            <br>
+
+            <h2>render/view:</h2>
+            <ul>
+                <li> Users will send the GET request with params containing the key “render_id” with the value of their render_id</li>
+                <li> RETURNS: {'url': url} (download link of rendered invoice)</li>
+            </ul>
+            <br>
+
+            <h2>auth/register:</h2>
+            <ul>
+                <li> Users will send the POST request with body containing form-data which will have the key "name" with value of the name string, 
+                    key “email” with the value of their email string, 
+                    the key “password” with the value of their password string
+                and the key "account" with either "business" or "individual" as strings</li>
+                <li> Password must have at least 5 chars</li>
+                <li> Register will not work if the email has already been registered</li>
+                <li> Email must be a valid email</li>
+                <li> Name must be entered</li>
+                <li> Register will not work if the email or name has already been registered</li>
+                <li> RETURNS: {'api_key': api_key}</li>
+            </ul>
+            <br>
+
+            <h2>auth/login:</h2>
+            <ul>
+                <li> Users will send the POST request with body containing form-data which will have the key “email” with the value of their email string and the key “password” with the value of their password string.</li>
+                <li> RETURNS: {'api_key': api_key, 'account_type': 'business' or 'individual'}</li>
+            </ul>
+            <br>
+
+            <h2>healthcheck:</h2>
+            <ul>
+                <li> RETURNS: {"success": true} if server is functioning. </li>
+            </ul>
+
+        </body>
+    </html>
