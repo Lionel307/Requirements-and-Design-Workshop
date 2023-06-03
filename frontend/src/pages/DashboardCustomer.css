@@ -1,0 +1,36 @@
+.circle1C {
+    height:400px;
+    width:400px;
+    background-color:#fff;
+    border:5px solid #57AEFF;    
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    text-align: center;
+    line-height: 250px;
+    font-size: 34px;
+    color: #666666;
+}
+.moneyC{
+    position: absolute;
+    margin-top: -295px;
+    margin-left: 45.5%;
+}
+.middleC{
+    margin-top: -290px;
+    margin-left: 41.25%;
+}
+
+.ttitle1C {
+    margin-top: 170px;
+    text-align: center;
+}
+
+.table1C{
+    width: 80%;
+}
+
+.spendingsC{
+    margin-top: -25px;
+    margin-left: 0;
+}

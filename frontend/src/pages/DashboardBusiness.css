@@ -1,0 +1,115 @@
+.container1 {
+    margin-top: 100px;
+}
+
+.bigCircle {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.circle1 {
+    height:400px;
+    width:400px;
+    background-color:#fff;
+    border:5px solid #57AEFF;    
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    text-align: center;
+    line-height: 250px;
+    font-size: 36px;
+    color: #666666;
+}
+.circle2 {
+    height:250px;
+    width:250px;
+    background-color:#fff;
+    border:5px solid #57AEFF;    
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    text-align: center;
+    line-height: 160px;
+    font-size: 22px;
+    color: #666666;
+}
+.circle3 {
+    height:250px;
+    width:250px;
+    background-color:#fff;
+    border:5px solid #57AEFF;    
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    text-align: center;
+    font-size: 22px;
+    color: #666666;
+}
+
+.biggestPurchase {
+    margin-top: 40px;
+}
+
+.money{
+    text-align: center;
+    margin-top: -295px;
+}
+
+.middle{
+    margin-top: -190px;
+    margin-left: 42%;
+}
+.seller{
+    text-align: center;
+    margin-top: -120px;
+    margin-left: -760px;
+}
+.left{
+    margin-top: -125px;
+    margin-left: 25.7%;
+}
+.purchase{
+    margin-top: -85px;
+    margin-left: 40.5%;
+}
+.right{
+    margin-top: -155px;
+    margin-left: 40%;
+}
+
+.ttitle1 {
+    margin-top: 180px;
+    margin-left: -900px;
+}
+
+.ttitle2 {
+    margin-top: -52px;
+    margin-left: 45%;
+}
+.table1{
+    width: 42.5%;
+    padding-right: 50px;
+}
+.table2{
+    width: 42.5%;
+}
+
+.earnings{
+    margin-top: -20px;
+    margin-left: -71%;
+}
+
+.spendings{
+    margin-top: -74px;
+    margin-left: 20%;
+}
+
+.flexCenter {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,53 @@
+.arrowDown{
+    height: 300px;
+    width: 150px;
+    margin-left: 50%;
+    margin-top: -22%;
+    transform: rotate(23deg);
+}
+
+.upload {
+    height: 450px;
+    width: 225px;
+    margin-left: 40%;
+    margin-top: -4%;
+}
+
+.uploadBar{
+    margin-left: 28%;
+    margin-top: 5%;
+}
+
+.uploadButton {
+    height: 40px;
+}
+
+.uploadPic {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.barText {
+    margin-right: 490px;
+    margin-left: 15px;
+}
+
+.textButton {
+    margin-top: -2.4%;
+    margin-left:  62.5%;
+}
+
+.fileUpload {
+    margin-left: 62%;
+    margin-top: -38px;
+}
+
+.flexUpload {
+    display: flex;
+    align-items: center;
+}
+
+.successMSG {
+    margin-right: 530px;
+    margin-top: 20px;
+}

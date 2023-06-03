@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 50px;
+    color: #303030;
+    text-align: center;
+    margin-top: 140px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+h3{
+    font-size: 50px;
+    color: #303030;
+}
+
+h4{
+    font-size: 20px;
+    color: #303030;
+}
+
+whyus{
+    font-size: 50px;
+    color: #303030;
+    text-align: center;
+}
+.centerise{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.alignLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: 70px;
+}
+
+.alignRight{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-right: 70px;
+}
+
+.alignLeftButton{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: 100px;
+}
+
+.valLogo{
+    height: 300px;
+    width: 250px;
+}
+
+.valIcon{
+    height: 300px;
+    width: 250px;
+}
+
+.renderLogo{
+    height: 300px;
+    width: 250px;
+    opacity: 0.8;
+}
+
+.renderIcon{
+    height: 300px;
+    width: 250px;
+    opacity: 0.8;
+}
+
+.renderIconFile{
+    height: 300px;
+    width: 250px;
+    opacity: 0.8;
+}
+
+.receiveLogo{
+    opacity: 0.8;
+    height: 300px;
+    width: 250px;
+}
+.downArrow{
+    height: 300px;
+    width: 150px;
+}
+
+.upArrow{
+    height: 300px;
+    width: 150px;
+    transform: rotate(60deg);
+}
+
+.serviceTitle{
+    transform: scale(2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+}
+
+.getStarted{
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.indivCard{
+    padding: 20px;
+}
+
+.mainLogo{
+    margin-bottom: -50px;
+}
+
+.margins{
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.speedIcon{
+    height: 300px;
+    width: 150px;
+    transform: scale(2);
+    opacity: 0.9;
+}
+
+.angryIcon{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height: 300px;
+    width: 150px;
+}
+
+.moneyIcon{
+    height: 200px;
+    width: 150px;
+}

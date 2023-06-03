@@ -1,0 +1,20 @@
+.errorMsg {
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.fileError {
+    width:125px;
+    margin-left: 7.5%;
+    margin-top: 5%;
+}
+
+.malformText {
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.malformMsg {
+    margin-top: 10%;
+    margin-left: 18%;
+}

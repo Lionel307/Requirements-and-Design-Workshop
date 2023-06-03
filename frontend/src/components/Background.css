@@ -1,0 +1,15 @@
+.spacer {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: -1;
+}
+
+.layer1 {
+    background-image: url('../images/background.svg');
+}
